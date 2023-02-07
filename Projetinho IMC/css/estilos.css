@@ -1,0 +1,121 @@
+
+@media only screen and ( min-width:768px ){
+
+body {
+   background-color: rgb(12, 106, 122);
+}
+
+.Subtitulo {
+     text-align: left;
+     color: rgb(0, 0, 0);
+     
+}
+
+.titulotabela {
+    background: rgb(121, 120, 120);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 400px;
+    min-width: 100px;
+    display: inline-block;
+
+}
+.calculo{
+    text-align: center;
+    padding: 10px;
+
+}
+form input, form label, form button {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    font-size: 13px;
+    height: 25px;
+    padding: 0px 25px;
+    border-radius: 25px;
+    display: inline-block;
+  }
+  
+  form input:focus {
+    outline: 1px solid rgb(12, 106, 122);
+  }
+ /* esconde as setas do input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+} 
+.CalculoTitulo{
+    background: rgb(116, 113, 113);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 400px;
+  min-width: 400px;
+    
+}
+.Calculobloco{
+    float: left;
+    padding: 50px;
+    max-width: 450px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Tabelabloco{
+    float: left;
+    padding: 50px;
+    max-width: 450px;
+    margin: 50px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.Introdução{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.resultadocalculo{
+    color:rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(147, 230, 230);
+    max-width: 400px;
+    min-width: 400px;
+    text-align: center;
+}
+button{
+    border-radius: 25px;
+     border-style: solid;
+    background-color: rgb(147, 230, 230);
+}
+
+table{
+    padding: 10px;
+    font-size: 18px;
+}
+
+ tr{/** Faz o estilo para as linhas. **/
+    text-align: center; /** Centraliza o conteúdo. **/
+   
+ }
+ th{/** Faz o estilo para as células do cabeçalho. **/
+    border-radius: 50px;
+    background: rgb(116, 113, 113); /** Muda para um fundo cinza. **/
+    color: rgb(0, 0, 0); /** Troca a cor da fonte para branco. **/
+ }
+ 
+ 
+
+}

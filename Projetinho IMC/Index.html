@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<br lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/javascript.js"></script>
+
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <main>
+        <section class="Introdução">
+            <article class="Subtitulo">
+                <h1 style="font-size: 25px"><strong>O que é o IMC? </strong></h1>
+                <p> O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está
+                    no
+                    peso
+                    ideal. Desenvolvido pelo polímata Lambert Quételet no fim do século XIX, trata-se de um método fácil
+                    e rápido para a avaliação do nível de gordura de cada pessoa, sendo, por isso, um preditor
+                    internacional
+                    de
+                    obesidade adotado
+                    pela Organização Mundial da Saúde (OMS).
+                </p>
+        </section>
+        </article>
+    </main>
+
+    <section class="Calculobloco">
+
+        <div class="CalculoTitulo"> <strong>Faça o cálculo</strong></div>
+
+        <div class="calculo">
+            <form id="formulario">
+                <label for="peso">Digite seu peso (ex: 79,2)</label><br>
+                <input type="number" maxlength="80" id="peso" name="peso" required="required"><br>
+                <label for="altura">Digite sua altura (ex: 1,71)</label><br>
+                <input type="number" id="altura" name="altura" required="required"><br>
+                <button onClick="CalcularIMC()" type="button" class="btn btn-default" id="enviar">Enviar</button>
+                <button type="reset" class="btn btn-default" id="limpar">Limpar</button>
+            </form>
+        </div>
+        <article class="resultadocalculo">
+            <div id="resultado"></div>
+        </article>
+    </section>
+
+    <section class="Tabelabloco">
+        <div class="titulotabela">
+            <strong>Saiba interpretar o resultado</strong>
+        </div>
+
+
+        <div class="Interpretar">
+            <table>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                    <th>Grau de Obesidade</th>
+                </tr>
+                <tr class="magreza">
+                    <td>Menor que 18,5</td>
+                    <td>Magreza</td>
+                    <td>0</td>
+                </tr>
+                <tr class="normal">
+                    <td>Entre 18,5 e 24,9</td>
+                    <td>Normal</td>
+                    <td>0</td>
+                </tr>
+                <tr class="sobrepeso">
+                    <td>Entre 25,0 e 29,9</td>
+                    <td>Sobrepeso</td>
+                    <td>1</td>
+                </tr>
+                <tr class="obesidade">
+                    <td>Entre 30,0 e 39,9</td>
+                    <td>Obesidade</td>
+                    <td>2</td>
+                </tr>
+                <tr class="obesidadegrave">
+                    <td>Maior que 40,0</td>
+                    <td>Obesidade Grave</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
